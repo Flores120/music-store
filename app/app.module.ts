@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { Album } from './album.model';
 import { FilterPipe } from './filter.pipe';
 
+
 @NgModule({
   imports: [
     BrowserModule,

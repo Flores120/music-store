@@ -1,11 +1,78 @@
-h1{
-  color: blue;
+body{
+  background-color: #242526;
+  font-family: Helvetica Neue;
+}
+
+img {
+  width: 100%;
+  /*height: 300px;*/
+}
+select {
+  font-size: 20px;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  width: 65%;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+  box-shadow: 0 3px 0 #1f823c, 0 -1px #1f823c inset;
+  background: #2ebd59;
+  color: #f2f2f2;
+  border:none;
+  outline:none;
+  display: inline-block;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+}
+button {
+  margin-bottom: 12px;
+  background-color: #2ebd59;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  box-shadow: 0 7px #10441f;
+  border-radius:9px;
+}
+button:hover {
+  background-color: #1f823c
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #10441f;
+  transform: translateY(4px);
+}
+.title {
+  font-size: 50px;
+  color: #f2f2f2;
 }
 
 .musicAlbum {
-  color: #40a2aa;
-  padding: 10px 10px;
-  margin: 30px 30px;
-  border: 5px solid #40a2aa;
-  width: 25%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #141615;
+  font-size: 20px;
+  color: #f2f2f2;
+  text-align: center;
+  width: 65%;
+  position: relative;
+  overflow: hidden;
+ /*box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);  color: white;*/
+ /*padding: 10px;*/
+ margin-top: 20px;
+ margin-bottom: 25px;
+ box-shadow: 0 3px 0 #060706, 0 -1px #060706 inset;
+ /*filter: blur(5px);*/
+}
+#header {
+  font-size: 30px;
 }
